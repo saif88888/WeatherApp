@@ -1,6 +1,6 @@
 {
   "homepage": "https://saif88888.github.io/WeatherApp/",
-  "name": "myapp",
+  "name": "WeatherApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
