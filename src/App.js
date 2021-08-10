@@ -53,7 +53,7 @@ class App extends Component {
 
     <div className="wrapper">
 
-    <div className="form-container"> <h2> Weather App</h2>
+    <div className="form-container"> <h1> Weather App</h1>
 
     <Form getweather={this.getweather} />
     <Weather

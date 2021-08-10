@@ -47,40 +47,29 @@ body {
   10px 10px 15px black;
   transition: all 3.5s ease-in-out;
   position: absolute;
-  /*animation: moving 10s 1 linear;*/
+  animation: pulse 2s  ease infinite;
 
 
 
 }
 
-/*
-@keyframes moving {
+@keyframes pulse {
 
-    0%{
-      top: 100px;
-      left: 0
-    }
-
-    50%{
-      top: 100px;
-      left: 1300px;
-    }
-
-    100%
-    {
-      top: 100px;
-      left: 660px
-    }
+  0% { transform: scale(0.9); }
+50% { transform: scale(0.95); }
+100% { transform: scale(0.9); }
 
 
 
 }
 
-*/
+
 
 .form-container:hover{
   background-color: #8c0073;
   box-shadow: inset 0px 0px 0px 1px ;
+  animation: none;
+
 }
 
 
